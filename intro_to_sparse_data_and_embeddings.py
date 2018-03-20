@@ -217,3 +217,5 @@ plt.ylim(1.2 * embedding_matrix.min(), 1.2 * embedding_matrix.max())
 plt.show() 
 
 # Task 6 - Try to improve the model's performance
+!wget https://storage.googleapis.com/mledu-datasets/sparse-data-embedding/terms.txt -O /tmp/terms.txt
+
